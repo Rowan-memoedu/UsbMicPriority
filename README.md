@@ -2,7 +2,6 @@
 
 协作开发、Agent 提交与合并规则见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
-
 在已授权的 Android 设备上，通过 ADB 启动无需 Root 的本地音频路由辅助服务。
 
 ## 使用行为
