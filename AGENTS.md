@@ -1,5 +1,8 @@
 # USB Mic Priority
 
+- 代码提交、PR 合并、同步与共享边界遵守 [CONTRIBUTING.md](CONTRIBUTING.md)。历史任务授权、私人账号及生产数据权限不随源码共享转移给其他成员或 Agent。
+
+
 - 本项目是通过 ADB 激活的 Android 本地辅助服务：USB 输入优先，保留蓝牙输出，USB 拔出时恢复。
 - 技术栈为 Java 8 源码、Android 系统 API 和 PowerShell 7；没有 APK、网络服务或远程后端。
 - 构建：`pwsh -NoProfile -File .\Build.ps1`。路由逻辑或恢复记录变更必须通过主机测试。
